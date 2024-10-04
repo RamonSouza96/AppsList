@@ -18,7 +18,3 @@ This Android application, built with **Delphi 12 FireMonkey (FMX)**, displays a 
 
 ### License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Essa versão agora inclui as informações sobre a permissão necessária e destaca o uso do **Delphi 12 FMX**. Sinta-se à vontade para ajustar mais se necessário!
