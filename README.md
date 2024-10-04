@@ -12,9 +12,7 @@ This Android application, built with **Delphi 12 FireMonkey (FMX)**, displays a 
 - **Android SDK**: Utilized to interact with Android system features.
 
 ### Requirements:
-- Android device running version 5.0 (Lollipop) or higher.
 - **QUERY_ALL_PACKAGES** permission: Required to access the list of installed apps.
-- Delphi 12 with FireMonkey support for Android development.
 
 ### License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
