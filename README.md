@@ -9,7 +9,6 @@ This Android application, built with **Delphi 12 FireMonkey (FMX)**, displays a 
 
 ### Built With:
 - **Delphi 12 FireMonkey (FMX)**: Cross-platform framework for building mobile applications.
-- **Android SDK**: Utilized to interact with Android system features.
 
 ### Requirements:
 - **QUERY_ALL_PACKAGES** permission: Required to access the list of installed apps.
