@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/09/04 10:55:29.000.940,=D:\Users\T-Gamer\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/03 11:50:39.000.602,=D:\Users\T-Gamer\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/03 11:51:17.000.893,D:\Users\T-Gamer\Documentos\Embarcadero\Studio\Projects\Unit1.fmx=F:\PROJETOS\FMX\Android\AppsList\Main.View.fmx</Transaction>
+    <Transaction>2024/10/03 11:51:17.000.893,D:\Users\T-Gamer\Documentos\Embarcadero\Studio\Projects\Unit1.pas=F:\PROJETOS\FMX\Android\AppsList\Main.View.pas</Transaction>
+    <Transaction>2024/10/03 11:51:35.000.069,D:\Users\T-Gamer\Documentos\Embarcadero\Studio\Projects\Project1.dproj=F:\PROJETOS\FMX\Android\AppsList\AppsList.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="" Android64=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

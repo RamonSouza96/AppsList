@@ -1,0 +1,99 @@
+object FormMain: TFormMain
+  Left = 0
+  Top = 0
+  ClientHeight = 800
+  ClientWidth = 400
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object RectBackground: TRectangle
+    Align = Client
+    Fill.Color = xFFFBFBFB
+    Size.Width = 400.000000000000000000
+    Size.Height = 800.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object ListView1: TListView
+      ItemAppearanceClassName = 'TDynamicAppearance'
+      ItemEditAppearanceClassName = 'TDynamicAppearance'
+      HeaderAppearanceClassName = 'TListHeaderObjects'
+      FooterAppearanceClassName = 'TListHeaderObjects'
+      Align = Client
+      Size.Width = 400.000000000000000000
+      Size.Height = 743.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ItemAppearance.ItemHeight = 80
+      ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+        item
+          AppearanceObjectName = 'TextAppName'
+          AppearanceClassName = 'TTextObjectAppearance'
+          Appearance.Font.Family = 'Roboto'
+          Appearance.Font.StyleExt = {00050000000000000004000000}
+          Appearance.TextAlign = Leading
+          Appearance.TextColor = xFF0F0E0E
+          Appearance.Width = 230.000000000000000000
+          Appearance.Height = 20.000000000000000000
+          Appearance.PlaceOffset.X = 86.000000000000000000
+          Appearance.PlaceOffset.Y = 8.000000000000000000
+        end
+        item
+          AppearanceObjectName = 'ImageIconApp'
+          AppearanceClassName = 'TImageObjectAppearance'
+          Appearance.Width = 79.000000000000000000
+          Appearance.Height = 58.000000000000000000
+          Appearance.PlaceOffset.X = 1.000000000000000000
+          Appearance.PlaceOffset.Y = 10.000000000000000000
+        end
+        item
+          AppearanceObjectName = 'TextPackageName'
+          AppearanceClassName = 'TTextObjectAppearance'
+          Appearance.Font.Family = 'Roboto'
+          Appearance.TextAlign = Leading
+          Appearance.TextColor = xFF515151
+          Appearance.Width = 230.000000000000000000
+          Appearance.Height = 20.000000000000000000
+          Appearance.PlaceOffset.X = 86.000000000000000000
+          Appearance.PlaceOffset.Y = 30.000000000000000000
+        end
+        item
+          AppearanceObjectName = 'TextDataPath'
+          AppearanceClassName = 'TTextObjectAppearance'
+          Appearance.Font.Family = 'Roboto'
+          Appearance.TextAlign = Leading
+          Appearance.TextColor = xFF515151
+          Appearance.Width = 281.000000000000000000
+          Appearance.Height = 20.000000000000000000
+          Appearance.PlaceOffset.X = 86.000000000000000000
+          Appearance.PlaceOffset.Y = 51.000000000000000000
+        end
+        item
+          AppearanceObjectName = 'AccessoryArrowRight'
+          AppearanceClassName = 'TAccessoryObjectAppearance'
+          Appearance.Width = 60.000000000000000000
+          Appearance.Height = 80.000000000000000000
+          Appearance.Align = Trailing
+        end>
+      ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+        item
+          AppearanceObjectName = 'Text1'
+          AppearanceClassName = 'TTextObjectAppearance'
+        end>
+      ItemAppearanceObjects.FooterObjects.Text.Width = 379.000000000000000000
+      ItemAppearanceObjects.FooterObjects.Text.Height = 24.000000000000000000
+      StyleLookup = 'ListView1Style1'
+      OnItemClick = ListView1ItemClick
+    end
+    object Button1: TButton
+      Align = Top
+      Size.Width = 400.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Carregar Apps'
+      TextSettings.Trimming = None
+      OnClick = Button1Click
+    end
+  end
+end
